@@ -1,0 +1,122 @@
+{
+  "model_id": "c1b507f8-7018-4505-9aa5-d9b2dc4ce087",
+  "name": "Ranking najpopularniejszych marek sportowych",
+  "alternatives": [
+    {
+      "id": "94205751-6019-4da8-8881-2567c67d0e75",
+      "name": "Nike"
+    },
+    {
+      "id": "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202",
+      "name": "Adidas"
+    },
+    {
+      "id": "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58",
+      "name": "Puma"
+    },
+    {
+      "id": "5813b325-b51e-409c-8c78-5c16247160ed",
+      "name": "Reebok"
+    }
+  ],
+  "criteria": [
+    {
+      "id": "32d45322-4893-44a1-931b-b409e7a42eba",
+      "name": "Jakość"
+    },
+    {
+      "id": "b29a481b-1bbd-4c6f-b11b-9afa64aa73e5",
+      "name": "Cena"
+    },
+    {
+      "id": "8a70f77b-21ac-4813-9afd-049a8c7f5817",
+      "name": "Innowacyjność"
+    }
+  ],
+  "expert_inputs": [
+    {
+      "expert_id": "f61547ad-5589-4e1a-8abd-7d07b6061f53",
+      "criterion_weights": {
+        "32d45322-4893-44a1-931b-b409e7a42eba": 0.5,
+        "b29a481b-1bbd-4c6f-b11b-9afa64aa73e5": 0.3,
+        "8a70f77b-21ac-4813-9afd-049a8c7f5817": 0.2
+      },
+      "criterion_scores": {
+        "32d45322-4893-44a1-931b-b409e7a42eba": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 8,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 7,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 6,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 7
+        },
+        "b29a481b-1bbd-4c6f-b11b-9afa64aa73e5": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 6,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 8,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 7,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 5
+        },
+        "8a70f77b-21ac-4813-9afd-049a8c7f5817": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 9,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 6,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 7,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 8
+        }
+      }
+    },
+    {
+      "expert_id": "79211cfc-815b-4b47-ac3b-6cef1fa11686",
+      "criterion_weights": {
+        "32d45322-4893-44a1-931b-b409e7a42eba": 0.4,
+        "b29a481b-1bbd-4c6f-b11b-9afa64aa73e5": 0.4,
+        "8a70f77b-21ac-4813-9afd-049a8c7f5817": 0.2
+      },
+      "criterion_scores": {
+        "32d45322-4893-44a1-931b-b409e7a42eba": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 9,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 6,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 7,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 6
+        },
+        "b29a481b-1bbd-4c6f-b11b-9afa64aa73e5": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 5,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 7,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 8,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 7
+        },
+        "8a70f77b-21ac-4813-9afd-049a8c7f5817": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 8,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 5,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 7,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 9
+        }
+      }
+    },
+    {
+      "expert_id": "e83b4d80-3058-4ac6-af3b-23e8e33fd51f",
+      "criterion_weights": {
+        "32d45322-4893-44a1-931b-b409e7a42eba": 0.2,
+        "b29a481b-1bbd-4c6f-b11b-9afa64aa73e5": 0.4,
+        "8a70f77b-21ac-4813-9afd-049a8c7f5817": 0.4
+      },
+      "criterion_scores": {
+        "32d45322-4893-44a1-931b-b409e7a42eba": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 7,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 8,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 6,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 7
+        },
+        "b29a481b-1bbd-4c6f-b11b-9afa64aa73e5": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 8,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 8,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 5,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 7
+        },
+        "8a70f77b-21ac-4813-9afd-049a8c7f5817": {
+          "94205751-6019-4da8-8881-2567c67d0e75": 9,
+          "fd256d9f-9ab7-4f7f-8aa2-c3eea85ae202": 7,
+          "ca1776bd-6ae1-4c2e-ae31-a4fd192aef58": 8,
+          "5813b325-b51e-409c-8c78-5c16247160ed": 6
+        }
+      }
+    }
+  ]
+}
